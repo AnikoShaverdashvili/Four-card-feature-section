@@ -135,4 +135,7 @@ body {
   .card {
     margin-top: 25px;
   }
+  .card-holder {
+    margin-left: 0px;
+  }
 }
