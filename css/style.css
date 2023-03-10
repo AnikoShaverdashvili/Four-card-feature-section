@@ -80,7 +80,7 @@ body {
   align-items: center;
 }
 .card-holder {
-  margin-right: 30px;
+  /* margin-right: 30px; */
   width: 100%;
 }
 .svg {
@@ -90,6 +90,10 @@ body {
   margin-left: auto;
 }
 
+.card-holder:nth-child(2) {
+  margin-right: 30px;
+  margin-left: 30px;
+}
 .card-holder .card:nth-child(2) {
   margin-top: 40px;
 }
@@ -135,7 +139,8 @@ body {
   .card {
     margin-top: 25px;
   }
-  .card-holder {
+  .card-holder:nth-child(2) {
     margin-right: 0px;
+    margin-left: 0px;
   }
 }
